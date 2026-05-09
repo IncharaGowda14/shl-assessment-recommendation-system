@@ -1,7 +1,17 @@
 import streamlit as st
-import requests
+from recommender import recommend_assessments
+
+st.set_page_config(
+    page_title="SHL Recommendation System",
+    layout="wide"
+)
 
 st.title("SHL Assessment Recommendation System")
+
+st.write(
+    "Enter a job description or hiring query "
+    "to get relevant SHL assessments."
+)
 
 query = st.text_area(
     "Enter Job Description or Hiring Query"
@@ -9,23 +19,34 @@ query = st.text_area(
 
 if st.button("Recommend Assessments"):
 
-    response = requests.post(
-        "http://127.0.0.1:8000/recommend",
-        json={"query": query}
-    )
+    if query.strip() == "":
+        st.warning("Please enter a query.")
+    else:
 
-    data = response.json()
+        results = recommend_assessments(query)
 
-    st.subheader("Recommended Assessments")
+        st.subheader("Recommended Assessments")
 
-    for item in data["recommendations"]:
+        for item in results:
 
-        st.markdown(f"### {item['name']}")
+            with st.container():
 
-        st.write(f"Type: {item['test_type']}")
-        st.write(f"Duration: {item['duration']}")
-        st.write(f"Remote Support: {item['remote_support']}")
-        st.write(f"Adaptive Support: {item['adaptive_support']}")
-        st.write(f"Score: {round(item['score'], 3)}")
+                st.markdown(f"## {item['name']}")
 
-        st.markdown(f"[Assessment Link]({item['url']})")
+                st.write(f"**Test Type:** {item['test_type']}")
+                st.write(f"**Duration:** {item['duration']}")
+                st.write(
+                    f"**Remote Support:** "
+                    f"{item['remote_support']}"
+                )
+                st.write(
+                    f"**Adaptive Support:** "
+                    f"{item['adaptive_support']}"
+                )
+                st.write(f"**Match Score:** {item['score']}")
+
+                st.markdown(
+                    f"[Open Assessment]({item['url']})"
+                )
+
+                st.divider()
