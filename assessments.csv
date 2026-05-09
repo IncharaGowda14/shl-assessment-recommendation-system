@@ -1,0 +1,62 @@
+name,url,remote_support,adaptive_support,duration,test_type,description
+Java Developer Test,https://www.shl.com,Yes,Yes,45 mins,Technical,Assessment for Java programming backend development object oriented programming and APIs
+Advanced Java Assessment,https://www.shl.com,Yes,Yes,50 mins,Technical,Assessment for advanced Java Spring Boot multithreading and backend systems
+Python Developer Test,https://www.shl.com,Yes,Yes,40 mins,Technical,Assessment for Python programming APIs automation scripting and backend development
+Python Automation Test,https://www.shl.com,Yes,Yes,35 mins,Technical,Assessment for Python automation scripting selenium and workflow automation
+Data Science Assessment,https://www.shl.com,Yes,Yes,60 mins,Technical,Assessment for machine learning statistics data analysis and predictive modeling
+Machine Learning Engineer Test,https://www.shl.com,Yes,Yes,60 mins,Technical,Assessment for supervised learning deep learning model evaluation and AI systems
+AI Engineer Assessment,https://www.shl.com,Yes,Yes,60 mins,Technical,Assessment for artificial intelligence deep learning NLP and machine learning
+NLP Assessment,https://www.shl.com,Yes,Yes,50 mins,Technical,Assessment for natural language processing transformers text analytics and AI
+SQL Test,https://www.shl.com,Yes,No,30 mins,Technical,Assessment for SQL queries database concepts joins indexing and optimization
+Database Administrator Test,https://www.shl.com,Yes,No,45 mins,Technical,Assessment for database administration backup recovery and optimization
+Data Engineer Assessment,https://www.shl.com,Yes,Yes,55 mins,Technical,Assessment for ETL pipelines big data Spark Hadoop and warehousing
+JavaScript Test,https://www.shl.com,Yes,Yes,35 mins,Technical,Assessment for JavaScript frontend development DOM and web programming
+React Developer Test,https://www.shl.com,Yes,Yes,40 mins,Technical,Assessment for React frontend UI development hooks and components
+Angular Developer Assessment,https://www.shl.com,Yes,Yes,45 mins,Technical,Assessment for Angular TypeScript frontend applications and SPA development
+Frontend Developer Test,https://www.shl.com,Yes,Yes,40 mins,Technical,Assessment for frontend development HTML CSS JavaScript and responsive UI
+Node.js Assessment,https://www.shl.com,Yes,Yes,45 mins,Technical,Assessment for Node.js backend APIs asynchronous programming and Express
+Backend Developer Test,https://www.shl.com,Yes,Yes,50 mins,Technical,Assessment for backend APIs databases authentication and server-side systems
+Full Stack Developer Assessment,https://www.shl.com,Yes,Yes,60 mins,Technical,Assessment for frontend backend databases APIs and full stack engineering
+DevOps Assessment,https://www.shl.com,Yes,No,50 mins,Technical,Assessment for CI/CD Docker Kubernetes cloud and automation
+Cloud Computing Test,https://www.shl.com,Yes,No,45 mins,Technical,Assessment for AWS Azure cloud infrastructure deployment and services
+AWS Cloud Assessment,https://www.shl.com,Yes,No,50 mins,Technical,Assessment for AWS EC2 Lambda S3 and cloud architecture
+Azure Administrator Test,https://www.shl.com,Yes,No,45 mins,Technical,Assessment for Microsoft Azure virtual machines networking and cloud management
+Cybersecurity Test,https://www.shl.com,Yes,No,50 mins,Technical,Assessment for network security vulnerabilities ethical hacking and cybersecurity
+Ethical Hacking Assessment,https://www.shl.com,Yes,No,55 mins,Technical,Assessment for penetration testing vulnerability scanning and security analysis
+Network Engineer Test,https://www.shl.com,Yes,No,40 mins,Technical,Assessment for networking routing switching protocols and troubleshooting
+Linux Administrator Test,https://www.shl.com,Yes,No,45 mins,Technical,Assessment for Linux administration shell scripting and server management
+Software Testing Assessment,https://www.shl.com,Yes,No,40 mins,Technical,Assessment for manual testing automation testing Selenium and QA processes
+QA Automation Engineer Test,https://www.shl.com,Yes,No,45 mins,Technical,Assessment for Selenium test automation regression and software quality
+Mobile App Developer Test,https://www.shl.com,Yes,Yes,45 mins,Technical,Assessment for Android iOS Flutter and mobile application development
+Android Developer Assessment,https://www.shl.com,Yes,Yes,40 mins,Technical,Assessment for Android Studio Java Kotlin and mobile UI
+iOS Developer Test,https://www.shl.com,Yes,Yes,40 mins,Technical,Assessment for Swift iOS applications and Apple mobile ecosystem
+Communication Skills Test,https://www.shl.com,Yes,No,25 mins,Behavioral,Assessment for verbal written communication and workplace interaction
+Leadership Assessment,https://www.shl.com,Yes,No,40 mins,Behavioral,Assessment for leadership team management and strategic decision making
+Team Management Test,https://www.shl.com,Yes,No,35 mins,Behavioral,Assessment for team coordination leadership and people management
+Project Management Assessment,https://www.shl.com,Yes,No,45 mins,Business,Assessment for agile project management scrum leadership and planning
+Agile Scrum Test,https://www.shl.com,Yes,No,35 mins,Business,Assessment for Scrum Agile sprint planning and project execution
+Business Analyst Test,https://www.shl.com,Yes,No,40 mins,Business,Assessment for business analysis requirement gathering and documentation
+HR Skills Assessment,https://www.shl.com,Yes,No,30 mins,Behavioral,Assessment for HR communication recruitment and employee engagement
+Recruitment Specialist Test,https://www.shl.com,Yes,No,30 mins,Behavioral,Assessment for hiring interviewing onboarding and talent acquisition
+Sales Aptitude Test,https://www.shl.com,Yes,No,35 mins,Behavioral,Assessment for sales communication negotiation and customer handling
+Digital Marketing Assessment,https://www.shl.com,Yes,No,40 mins,Business,Assessment for SEO social media content marketing and analytics
+Customer Service Test,https://www.shl.com,Yes,No,30 mins,Behavioral,Assessment for customer support communication and issue resolution
+Technical Support Assessment,https://www.shl.com,Yes,No,35 mins,Behavioral,Assessment for IT support troubleshooting and technical assistance
+Finance Analyst Test,https://www.shl.com,Yes,No,40 mins,Business,Assessment for financial analysis accounting budgeting and reporting
+Accounting Assessment,https://www.shl.com,Yes,No,35 mins,Business,Assessment for bookkeeping accounting taxation and finance operations
+Banking Operations Test,https://www.shl.com,Yes,No,40 mins,Business,Assessment for banking operations compliance and customer transactions
+Supply Chain Management Assessment,https://www.shl.com,Yes,No,45 mins,Business,Assessment for logistics procurement inventory and supply chain planning
+Operations Management Test,https://www.shl.com,Yes,No,40 mins,Business,Assessment for operations workflow optimization and productivity
+Content Writing Assessment,https://www.shl.com,Yes,No,30 mins,Behavioral,Assessment for writing editing grammar and content creation
+Graphic Design Test,https://www.shl.com,Yes,No,35 mins,Creative,Assessment for graphic design Adobe Photoshop Illustrator and visual creativity
+UI UX Designer Assessment,https://www.shl.com,Yes,No,45 mins,Creative,Assessment for UI UX wireframes prototyping and user experience design
+Video Editing Test,https://www.shl.com,Yes,No,35 mins,Creative,Assessment for video editing animation and multimedia production
+Cognitive Ability Test,https://www.shl.com,Yes,Yes,35 mins,Cognitive,Assessment for aptitude reasoning and cognitive intelligence
+Logical Reasoning Assessment,https://www.shl.com,Yes,Yes,30 mins,Cognitive,Assessment for logical reasoning analytical thinking and puzzles
+Numerical Ability Test,https://www.shl.com,Yes,Yes,30 mins,Cognitive,Assessment for quantitative aptitude calculations and numerical reasoning
+Verbal Ability Assessment,https://www.shl.com,Yes,Yes,30 mins,Cognitive,Assessment for grammar comprehension vocabulary and verbal reasoning
+Critical Thinking Test,https://www.shl.com,Yes,Yes,35 mins,Cognitive,Assessment for critical thinking decision making and analytical reasoning
+Problem Solving Test,https://www.shl.com,Yes,Yes,35 mins,Cognitive,Assessment for logical reasoning analytical thinking and decision making
+Emotional Intelligence Assessment,https://www.shl.com,Yes,No,30 mins,Behavioral,Assessment for emotional intelligence empathy collaboration and workplace behavior
+Time Management Test,https://www.shl.com,Yes,No,25 mins,Behavioral,Assessment for productivity scheduling prioritization and time management
+Workplace Ethics Assessment,https://www.shl.com,Yes,No,30 mins,Behavioral,Assessment for professional ethics integrity and workplace conduct
