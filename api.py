@@ -1,24 +1,42 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from recommender import recommend_assessments
+from typing import List
 
-app = FastAPI()
+from conversation import chat_agent
 
-class QueryRequest(BaseModel):
-    query: str
+app = FastAPI(
+    title="SHL Conversational Assessment Agent"
+)
 
-@app.get("/")
-def home():
+
+class Message(BaseModel):
+    role: str
+    content: str
+
+
+class ChatRequest(BaseModel):
+    messages: List[Message]
+
+
+@app.get("/health")
+def health_check():
+
     return {
-        "message": "SHL Assessment Recommendation API"
+        "status": "ok"
     }
 
-@app.post("/recommend")
-def recommend(request: QueryRequest):
 
-    results = recommend_assessments(request.query)
+@app.post("/chat")
+def chat(request: ChatRequest):
 
-    return {
-        "query": request.query,
-        "recommendations": results
-    }
+    messages = [
+        {
+            "role": msg.role,
+            "content": msg.content
+        }
+        for msg in request.messages
+    ]
+
+    response = chat_agent(messages)
+
+    return response

@@ -1,23 +1,31 @@
 import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
+
+from sklearn.feature_extraction.text import (
+    TfidfVectorizer
+)
+
+from sklearn.metrics.pairwise import (
+    cosine_similarity
+)
 
 # Load dataset
 df = pd.read_csv("assessments.csv")
 
-# Combine text fields
+# Combine assessment text
 assessment_texts = (
     df['name'] + " " +
     df['description'] + " " +
     df['test_type']
 ).tolist()
 
-# Create TF-IDF vectors
+# TF-IDF vectorizer
 vectorizer = TfidfVectorizer()
 
-assessment_vectors = vectorizer.fit_transform(assessment_texts)
+assessment_vectors = vectorizer.fit_transform(
+    assessment_texts
+)
 
-# Recommendation function
+
 def recommend_assessments(query, top_k=5):
 
     query_vector = vectorizer.transform([query])
@@ -38,11 +46,7 @@ def recommend_assessments(query, top_k=5):
         results.append({
             "name": row['name'],
             "url": row['url'],
-            "remote_support": row['remote_support'],
-            "adaptive_support": row['adaptive_support'],
-            "duration": row['duration'],
-            "test_type": row['test_type'],
-            "score": float(similarities[idx])
+            "test_type": row['test_type']
         })
 
     return results
